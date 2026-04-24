@@ -1,0 +1,39 @@
+.container {
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('assets/RubikIso-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.rubik {
+  font-family: 'Rubik';
+  font-size: 400%;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+img {
+  animation: fadeIn .5s ease-in-out forwards;
+  border: 1px solid black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+body {
+    background: white; 
+}
